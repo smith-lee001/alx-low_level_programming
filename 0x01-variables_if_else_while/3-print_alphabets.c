@@ -1,16 +1,21 @@
 #include <stdio.h>
 /**
- * main - Entry point
- * Code that prints alphabets in upper then lower case
- * Return 0 (Success) 
+ * Entry - main point
+ * program that prints alphabets in uppercase then lowercase
+ * Return: 0 (Success)
  */
-int main(void) {
-char alp[52]= abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
-int i;
-for (i=0;i<52;i++)
+int main(void)
 {
-putchar(alp(i));
+/*Print lowercase alphabet*/
+for (int i = 0; i < 26; i++)
+{
+putchar('a' + i);
 }
-putchar("\n")
-return 0;
+/*Print uppercase alphabet*/
+for (int i = 0; i < 26; i++)
+{
+putchar('A' + i);
+}
+putchar('\n');
+return (0);
 }
