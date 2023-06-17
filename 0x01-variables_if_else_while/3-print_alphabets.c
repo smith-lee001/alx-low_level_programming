@@ -6,6 +6,7 @@
  */
 int main(void)
 {
+int i;
 /*Print lowercase alphabet*/
 for (int i = 0; i < 26; i++)
 {
