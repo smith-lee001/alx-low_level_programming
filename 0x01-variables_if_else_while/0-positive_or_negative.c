@@ -1,7 +1,10 @@
+Number 0
+#include <stdlib>
 #include <stdio.h>
 #include <time.h>
 /**
- * main - Testing positive, negative, and zero numbers
+ * main - Entry point
+ * Testing positive, negative, and zero numbers
  * Return: Always 0 (success)
  */
 int main(void)
