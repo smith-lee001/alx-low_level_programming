@@ -2,22 +2,15 @@
 /**
  * main - Entry point
  * Code that prints alphabets in upper then lower case
+ * Return 0 (Success) 
  */
 int main(void) {
-char ch = 'a';
-char CH = 'A';
-/* IT WILL PRINT a-z */
-while (ch<='z')
+char alp[52]= abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+int i;
+for (i=0;i<52;i++)
 {
-putchar(ch);
-++ch
+putchar(alp(i));
 }
-/* IT WILL PRINT A-Z */
-while (CH<='Z')
-{
-putchar(CH);
-++CH
-}
-putchar('\n');
+putchar("\n")
 return 0;
 }
