@@ -4,11 +4,19 @@
  * Code that prints alphabets in upper then lower case
  */
 int main(void) {
-for (char c = 'a'; c <= 'z'; c++) {
-putchar(c);
+char ch = 'a';
+char CH = 'A';
+/* IT WILL PRINT a-z */
+while (ch<='z')
+{
+putchar(ch);
+++ch
 }
-for (char c = 'A'; c <= 'Z'; c++) {
-putchar(c);
+/* IT WILL PRINT A-Z */
+while (CH<='Z')
+{
+putchar(CH);
+++CH
 }
 putchar('\n');
 return 0;
