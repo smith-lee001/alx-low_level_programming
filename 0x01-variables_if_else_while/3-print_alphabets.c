@@ -8,14 +8,18 @@ int main(void)
 {
 int i;
 /*Print lowercase alphabet*/
-for (int i = 0; i < 26; i++)
+int i =0;
+while (i<26)
 {
 putchar('a' + i);
+i++;
 }
 /*Print uppercase alphabet*/
-for (int i = 0; i < 26; i++)
+int i=0;
+while (i<26)
 {
 putchar('A' + i);
+i++;
 }
 putchar('\n');
 return (0);
