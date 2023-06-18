@@ -13,7 +13,7 @@ while (i < 26)
 putchar('a' + i);
 i++;
 }
-i = 0; 
+i = 0;
 /* Print uppercase alphabet */
 while (i < 26)
 {
