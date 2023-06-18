@@ -6,17 +6,16 @@
  */
 int main(void)
 {
-int i;
-/*Print lowercase alphabet*/
-int i =0;
-while (i<26)
+int i = 0;
+/* Print lowercase alphabet */
+while (i < 26)
 {
 putchar('a' + i);
 i++;
 }
-/*Print uppercase alphabet*/
-int i=0;
-while (i<26)
+i = 0; 
+/* Print uppercase alphabet */
+while (i < 26)
 {
 putchar('A' + i);
 i++;
