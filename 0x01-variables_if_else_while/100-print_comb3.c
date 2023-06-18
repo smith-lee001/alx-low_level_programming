@@ -29,5 +29,5 @@ numb2++;
 numb1++;
 }
 putchar('\n');
-return 0;
+return (0);
 }
