@@ -14,6 +14,7 @@ while (numb <= 102) /*102;decimal rep of 'f'*/
 putchar(numb);
 if (numb == 57)
 numb += 39;
+++numb;
 }
 putchar('\n');
 return (0);
