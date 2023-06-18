@@ -12,10 +12,9 @@ int numb = 0;
 while (numb <= 9)
 {
 putchar(',');
-putchar('0' + numb);
+putchar(' ')
 }
 ++numb;
-}
 putchar('\n');
 return (0);
 }
