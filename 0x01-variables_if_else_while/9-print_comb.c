@@ -12,7 +12,7 @@ int numb = 0;
 while (numb <= 9)
 {
 putchar(',');
-putchar(' ')
+putchar(' ');
 }
 ++numb;
 putchar('\n');
