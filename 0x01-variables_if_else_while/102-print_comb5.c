@@ -20,7 +20,7 @@ putchar((numb1 / 10) + 48);
 putchar((numb1 % 10) + 48);
 putchar(' ');
 putchar((numb2 / 10) + 48);
-putchar((numb1 % 10) + 48);
+putchar((numb2 % 10) + 48); // Fixed typo here
 if (numb1 != 98 || numb2 != 99)
 {
 putchar(',');
