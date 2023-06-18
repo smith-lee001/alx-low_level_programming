@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * Entry - main point
+ * main - Entry point
  * program that prints alphabets in uppercase then lowercase
  * Return: 0 (Success)
  */
