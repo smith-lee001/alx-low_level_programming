@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * main - Entry point
- *
- * Code that will print single digits of base 10 starting zero
+ *Code that prints digits of base 10 starting zero
+ * Return: Always 0 (Success)
  *
  */
 int main(void)
