@@ -2,7 +2,7 @@
 /**
  * print_line - draw straight line
  * in terminal
- *@n: number of times the character should be printed
+ *@n: number of times the character _should be printed
  */
 void print_line(int n)
 {
@@ -15,7 +15,7 @@ else
 int i;
 for (i = 1; i <= n; i++)
 {
-_putchar('-');
+_putchar('_');
 }
 _putchar('\n');
 }
