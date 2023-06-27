@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * char *_strcpy - finction that copies string
  * @dest: copy to
