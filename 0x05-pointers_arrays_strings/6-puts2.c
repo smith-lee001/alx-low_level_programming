@@ -1,4 +1,3 @@
-#include "main.h"
 /**
  * puts2 - function should only print one character
  * starting with the first one
