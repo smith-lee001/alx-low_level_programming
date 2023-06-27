@@ -20,7 +20,7 @@ for (o = 0; o <= t; o++)
 {
 if (0 % 2 == 0)
 {
-putchar(str[o]);
+putchar(*str[o]);
 }
 }
 putchar('\n');
