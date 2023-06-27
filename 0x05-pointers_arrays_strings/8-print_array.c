@@ -1,5 +1,5 @@
 #include <stdio.h>
-/**i
+/**
  * print_array - function that prints n elemnts
  * @a: array name
  * @n: number of elemnts in the array
