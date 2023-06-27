@@ -16,7 +16,7 @@ s++;
 s--;
 for (o = longi; o > 0; o--)
 {
-putchar(s);
+putchar(*s);
 s--;
 }
 _putchar('\n');
