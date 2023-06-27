@@ -1,0 +1,15 @@
+n file included from 3-puts.c:1:
+main.h:8:5: error: old-style parameter declarations in prototyped function definition
+    8 | int _strlen(char *s)
+      |     ^~~~~~~
+3-puts.c:15: error: expected ‘{’ at end of input
+   15 | 
+      | 
+In file included from 3-puts.c:1:
+main.h:8:19: error: unused parameter ‘s’ [-Werror=unused-parameter]
+    8 | int _strlen(char *s)
+      |             ~~~~~~^
+3-puts.c:15: error: control reaches end of non-void function [-Werror=return-type]
+   15 | 
+      | 
+cc1: all warnings being treated as errors"
