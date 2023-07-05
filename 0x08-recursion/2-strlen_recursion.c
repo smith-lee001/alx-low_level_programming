@@ -10,7 +10,7 @@ int length = 0;
 if (*s)
 {
 length++;
-length += _strlrn_recursion(s + 1);
+length += _strlen_recursion(s + 1);
 }
 return (length);
 }
