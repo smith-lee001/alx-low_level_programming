@@ -46,9 +46,9 @@ return (n);
 int main(int argc, char *argv[])
 {
 int result, num1, num2;
-if (argc < 3 || argc > 3)
+if (argc != 3)
 {
-print("Error\n");
+printf("Error\n");
 return (1);
 }
 num1 = _atoi(argv[1]);
