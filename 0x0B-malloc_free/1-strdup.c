@@ -13,7 +13,7 @@ int x, y = 0;
 if (str == NULL)
 return (NULL);
 x = 0;
-while (str[i] != '\0')
+while (str[x] != '\0')
 x++;
 aaa = malloc(sizeof(char) * (x + 1));
 if (aaa == NULL)
