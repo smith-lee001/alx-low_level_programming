@@ -26,10 +26,11 @@ while (i < len1)
 s[i] = s1[i];
 i++;
 }
-while (n < len2 && i < (len1 + n))
-s[i++] = s2[j++];
-while (n < len2 && i < (len1 + len2))
-s[i++] = s2[j++];
+while (n < len2 && j < n)
+s[i] = s2[j];
+i++;
+j++;
+}
 s[i] = '\0';
 return (s);
 }
