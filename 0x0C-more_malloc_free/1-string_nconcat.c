@@ -18,7 +18,7 @@ len2++;
 if (n < len2)
 s = malloc(sizeof(char) * (len1 + n + 1));
 else
-s = malloc(sizeof(char) * (len1 + len2 + 1))
+s = malloc(sizeof(char) * (len1 + len2 + 1));
 if (!s)
 return (NULL);
 while (i < len1)
